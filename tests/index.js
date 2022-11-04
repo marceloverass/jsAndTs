@@ -1,10 +1,4 @@
-function criaPessoa(nome, sobrenome, idade) {
-    return {
-        nome: nome,
-        sobrenome: sobrenome,
-        idade: idade
-    };
-}
+let array = [ [1, 2, 3], [4, 5, 6], [7, 8, 9] ];
 
-    const pessoa1 = criaPessoa('Marcelo', "Antonino", 21);
-    console.log(pessoa1.idade)
+const [item1, item2, item3] = array;
+console.log(item1[2]);
