@@ -7,8 +7,6 @@ function relogio() {
         });
     }
     
-    console.log(criaHoraDosSegundos(10))
-    
     const relogio = document.querySelector('.relogio');
     let segundos = 0;
     let timer;
@@ -43,4 +41,3 @@ function relogio() {
 }
 
 relogio()
-
